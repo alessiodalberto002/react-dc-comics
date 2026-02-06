@@ -1,0 +1,37 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+.footer-text li a{
+    color: gray;
+    text-transform: none;
+    font-weight: 400;
+}
+
+
+.w-photo {
+    width: 50px;
+}
+
+footer{
+    background-image: url(src/assets/img/footer-bg.jpg);
+}
+
+.bottom-img-footer {
+    bottom: -60px;
+}
