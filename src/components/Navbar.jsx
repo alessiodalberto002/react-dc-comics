@@ -16,7 +16,7 @@ const Navbar = () => {
     const navList = links.map(link => {
         return (
             <li key={link.id}>
-                <a href="" key={link.url} className={link.current ? 'active' : ' '}>
+                <a href={link.url} className={link.current ? 'active' : ' no-active '}>
                     {link.text}
                 </a>
             </li>
@@ -30,6 +30,24 @@ const Navbar = () => {
             </ul>
         </nav>
     )
+
+
+    // return (
+    //     <nav id="top-navbar">
+    //         <ul className="d-flex">
+    //             {/* {navList} */}
+    //             {links.map(link => {
+    //                 return (
+    //                     <li key={link.id}>
+    //                         <a href={link.url} className={link.current ? 'active' : ' no-active '}>
+    //                             {link.text}
+    //                         </a>
+    //                     </li>
+    //                 )
+    //             })}
+    //         </ul>
+    //     </nav>
+    // )
 }
 
 export default Navbar

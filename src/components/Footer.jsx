@@ -1,3 +1,46 @@
+const footerSection = [
+    {
+        id: 1,
+        title: "dc comics",
+        links: [
+            {
+                label: "Characteers",
+                href: "#",
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "shop",
+        links: [
+            {
+                label: "Characteers",
+                href: "#",
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: "dc",
+        links: [
+            {
+                label: "Characteers",
+                href: "#",
+            }
+        ]
+    },
+    {
+        id: 4,
+        title: "sites",
+        links: [
+            {
+                label: "Characteers",
+                href: "#",
+            }
+        ]
+    },
+]
+
 export default function Footer() {
 
     return (
