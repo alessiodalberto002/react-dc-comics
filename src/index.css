@@ -17,7 +17,7 @@ ul li a{
     margin-right: 25px;
 }
 
-.footer-text li a{
+.footer-text{
     color: gray;
     text-transform: none;
     font-weight: 400;
