@@ -1,4 +1,5 @@
 import BlueBelt from "./BlueBelt";
+import FilmList from "./filmlist/FilmList";
 
 export default function Main() {
 
@@ -7,7 +8,7 @@ export default function Main() {
         <main>
             <div className="bg-dark text-light fs-1 py-2">
                 <div className="container">
-                    <h1>--Content Goes Here--</h1>
+                    <FilmList />
                 </div>
             </div>
 
